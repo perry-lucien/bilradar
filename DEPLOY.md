@@ -43,7 +43,7 @@ ssh -i "~/.ssh/your-key.key" user@YOUR_SERVER_IP
 
 ```powershell
 # 本地打部署包（排除 node_modules / 运行时文件）
-cd "D:\DouBao_Program\抽奖推送"
+cd "<项目根目录>"
 tar -czf bilradar-deploy.tar.gz --exclude=node_modules --exclude=runtime.log --exclude=data/bilradar.db-wal --exclude=data/bilradar.db-shm .
 
 # 上传解压（会覆盖 ~/bilradar）
