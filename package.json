@@ -1,0 +1,21 @@
+{
+  "name": "bilradar",
+  "version": "0.1.0",
+  "description": "B站抽奖雷达 —— 只读监控抽奖动态并按门槛过滤推送 Telegram（个人自用）",
+  "private": true,
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "probe": "node src/s0_probe.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "dotenv": "^17.4.2",
+    "undici": "^7.29.0"
+  }
+}
